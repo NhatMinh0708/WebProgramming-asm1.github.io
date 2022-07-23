@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewpoint" contgent = "width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="Contact.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-1">
+                <div class="navbar">
+                    <img scr="https://cdn.dribbble.com/userupload/2549137/file/original-0bd095659cd75c6f306981b8bfb754fa.png?resize=400x0" alt="bookstore_logo" width="128px" height="128px", class="logo">            
+                    <nav>
+                        <ul>
+                            <li><a href="Homepage.html">Home Page</a></li>
+                            <li><a href="Category.html">Category 1</a></li>
+                             <li><a href="Category.html">Category 2</a></li>     
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="Contact purpose"> Contact purpose</label>
+            <select name="Contact_purpose" id="Contact_purpose">
+                <option value="sell books">I want to sell books</option>
+                <option value="buy books">I want to buy books</option>
+            </select>
+        </form>
+        <div class="form-row">
+            <div class="form-label">
+                <label for="name">Your Name</label>
+            </div>
+            <div class="form-field">
+                <input required id="name" type="text" name="name" maxlength="50">
+              </div>
+        </div>
+        <div class="form-row">
+            <div class="form-label">
+                <label for="email">Your Email</label>
+            </div>
+            <div class="form-field">
+                <input required id="email" type="email" name="email">
+              </div>
+        </div>
+        <div class="form-row">
+            <div class="form-label">
+                <label for="Phone">Your Phone</label>
+            </div>
+            <div class="form-field">
+                <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}" title="Enter 9 to 13 digits">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-label">
+              <label>How can we contact you:</label>
+            </div>
+            <div class="form-field">
+              <ul>
+                <li>
+                  <input type="checkbox" id="contact_phone" name="contact_method" value="phone">
+                  <label for="contact_phone">By Phone</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="contact_email" name="contact_method" value="email">
+                  <label for="contact_email">By Email</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </form>
+        <div class="form-row">
+            <div class="form-label">
+                <label>Do you want to recieve our weekly newsletter:</label>
+            </div>
+            <div class="form-field">
+                <ul>
+                    <li>
+                        <input type="radio" id="Yes" name="choice" value="Yes" checked="checked by default">
+                        <label for="Yes">Yes</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="No" name="choice" value="No">
+                        <label for="No">No</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="form-row">
+                <input type="reset" value="   Reset   ">
+                <input type="submit" value="  Submit  ">
+        </div>
+        </form>
+        <div class="footer">
+            <div class="footer-1">
+                <ul>
+                    <nav>
+                        <div class="navbar">
+                            <li><a href="About Us.html">About Us</a></li>
+                            <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+                            <li><a href="Terms.html">Terms</a></li>
+                            <li><a href="Copyright.html">Copyright</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+
+
+    </body>
+</html>
